@@ -1,3 +1,7 @@
-const App = () => {};
+import Tasks from "./components/Task";
 
-export default App;
+export default function App(){
+    return(
+        <Tasks/>
+    )
+}
